@@ -1,0 +1,6 @@
+#!/bin/bash
+commitMessage=${1:-"ccommit"}
+
+git add .
+git commit -am "$commitMessage"
+git push
